@@ -8,7 +8,7 @@ This package aims to provide a set of helpers to make it easier to
 acceptance test your React applications.
 
 The `mount` helper will resolve after mounting a component in a
-freshly inserted DOM node. Subsquent uses will clean up any previously
+freshly inserted DOM node. Subsequent uses will clean up any previously
 mounted component.
 
 ``` javascript
@@ -132,13 +132,13 @@ setupAppForTesting(App, {
 })
 ```
 
-## Resuability
+## Reusability
 
 For the most optimal experience when testing your application, any
 required application logic that does not live in a component's
-lifecycle hooks should be made reusable. Either by providing the
+life-cycle hooks should be made reusable. Either by providing the
 necessary `setup` and `teardown` options, or by moving the logic into
-component lifecycle hooks.
+component life-cycle hooks.
 
 In addition to this, it will probably make sense to make use of
 `setupAppForTesting` inside of your own test helper where any other
@@ -165,7 +165,7 @@ export function setupApplicationForTesting() {
 
 ## Even Better Testing
 
-While these helpers allow you to repeatably mount your application for
+While these helpers allow you to repeatedly mount your application for
 testing, interacting with your application can also be troublesome.
 
 [`@bigtest/interactor`](https://github.com/bigtestjs/interactor)
