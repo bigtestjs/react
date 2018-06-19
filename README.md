@@ -1,4 +1,4 @@
-# @bigtest/react [![CircleCI](https://circleci.com/gh/bigtestjs/react/tree/master.svg?style=svg)](https://circleci.com/gh/bigtestjs/react/tree/master)
+# @bigtest/react [![CircleCI](https://circleci.com/gh/bigtestjs/react/tree/master.svg?style=svg)](https://circleci.com/gh/bigtestjs/react/tree/master) [![Join the chat at https://gitter.im/bigtestjs/react](https://badges.gitter.im/bigtestjs/react.svg)](https://gitter.im/bigtestjs/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 React DOM helpers for testing big
 
