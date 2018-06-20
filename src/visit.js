@@ -15,7 +15,7 @@ import { getContext } from './context';
  *
  * @function visit
  * @param {Object|String} location - Argument for `history.push()`
- * @throws Error When `setupAppForTesting` was not called
+ * @throws {Error} When `setupAppForTesting` was not called
  */
 export function visit(location) {
   getContext('history').push(location);
@@ -37,7 +37,7 @@ export function visit(location) {
  * ```
  *
  * @function goBack
- * @throws Error When `setupAppForTesting` was not called
+ * @throws {Error} When `setupAppForTesting` was not called
  */
 export function goBack() {
   getContext('history').goBack();
@@ -60,7 +60,7 @@ export function goBack() {
  * ```
  *
  * @function goForward
- * @throws Error When `setupAppForTesting` was not called
+ * @throws {Error} When `setupAppForTesting` was not called
  */
 export function goForward() {
   getContext('history').goForward();
@@ -80,7 +80,7 @@ export function goForward() {
  * ```
  *
  * @returns {Object} Current history location object
- * @throws Error When `setupAppForTesting` was not called
+ * @throws {Error} When `setupAppForTesting` was not called
  */
 export function location() {
   return getContext('history').location;

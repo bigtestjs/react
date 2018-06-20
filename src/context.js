@@ -30,7 +30,7 @@ export function setContext(newContext) {
  * @param {String} key - The key of the value to retrieve
  * @param {String|Boolean} [error] - Specific error message to throw
  * @returns Value of `key` within the current context
- * @throws Error when `key` is not fonud in the current context
+ * @throws {Error} when `key` is not fonud in the current context
  */
 export function getContext(key, error) {
   if (typeof error === 'undefined') {
