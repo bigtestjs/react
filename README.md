@@ -1,4 +1,9 @@
-# @bigtest/react [![CircleCI](https://circleci.com/gh/bigtestjs/react/tree/master.svg?style=svg)](https://circleci.com/gh/bigtestjs/react/tree/master) [![Join the chat at https://gitter.im/bigtestjs/react](https://badges.gitter.im/bigtestjs/react.svg)](https://gitter.im/bigtestjs/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# :warning: DEPRECATED :warning:
+In order to make BigTest development faster and friction free, we've consolidated all of our individual projects into a [single repository on the Frontside Organization](https://github.com/thefrontside/bigtest). We'd love to see you there!
+
+_note: the last release from this repository was 0.1.2_
+
+## @bigtest/react
 
 React DOM helpers for testing big
 
